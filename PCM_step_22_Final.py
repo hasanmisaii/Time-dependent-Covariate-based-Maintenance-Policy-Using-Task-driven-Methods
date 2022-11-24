@@ -4,8 +4,13 @@ Created on Fri Nov  5 13:36:04 2021
 
 @author: misaiiha
 
-step 0: sans masked data
-Third Scenario: there are three perfect corrective maintenance actions where are related to time and cause
+- Without considering masked data
+- Considering three periods for component lifetime
+- The repairs in each period are perfect corrective maintenance with different costs through time and cause dependent multinomial logistic regression model
+- The borders between periods are fixed. 
+
+
+Fourth Scenario: there are three perfect corrective maintenance actions where are related to time and cause
 based on multinomial logestic regression
 """
 import numpy as np
