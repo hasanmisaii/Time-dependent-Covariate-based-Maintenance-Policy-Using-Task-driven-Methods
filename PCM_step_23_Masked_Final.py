@@ -4,8 +4,11 @@ Created on Fri Nov  5 13:36:04 2021
 
 @author: misaiiha
 
-step 2: sans masked data
-First Scenario: there are minimal, imperfect and perfect corrective maintenance actions with different costs
+- Considering masked data
+- Three differnt periods with random borders are considered
+- The minimal, imperfect and perfect corrective maintenance actions with different costs are considered. 
+
+Sixth Scenario: there are minimal, imperfect and perfect corrective maintenance actions with different costs
 while I_1 and I_2 are Random considering Masked data
 """
 import numpy as np
