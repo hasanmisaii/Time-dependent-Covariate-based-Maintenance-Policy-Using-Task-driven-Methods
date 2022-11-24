@@ -4,8 +4,12 @@ Created on Fri Nov  5 13:36:04 2021
 
 @author: misaiiha
 
-step 0: sans masked data
-First Scenario: there are three perfect corrective maintenance actions with different costs
+- Without considering masked data
+- Considering three periods for component lifetime
+- The repairs in each period are perfect corrective maintenance with different costs
+- The borders between periods are Random. 
+
+Second Scenario: there are three perfect corrective maintenance actions with different costs
 while I_1 and I_2 are Random
 """
 import numpy as np
